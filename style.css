@@ -16,7 +16,7 @@ Verde: #22A048
 body
 {
     min-height: 100vh;
-    background: linear-gradient(#ffffff, #304999);
+    background: linear-gradient(#304999, #ffffff);
 }
 
 header
