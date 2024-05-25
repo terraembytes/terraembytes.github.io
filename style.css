@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
 
+/* Branco: #ffffff
+Azul: #304999
+Verde: #22A048
+ */
+
 *
 {
     margin: 0;
@@ -13,3 +18,35 @@ body
     min-height: 100vh;
     background: linear-gradient(#ffffff, #304999);
 }
+
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo
+{
+    color: #304999;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* header ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
