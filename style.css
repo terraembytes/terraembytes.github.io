@@ -17,7 +17,9 @@ body
 {
     min-height: 100vh;
     background: linear-gradient(#304999, #ffffff);
-    background-position: 100%;
+    background-image: url('resources/world.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
 }
 
 header
